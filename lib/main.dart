@@ -5,11 +5,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:nada_nusantara/pages/home_screen.dart';
 
 void main() {
-  // runApp(DevicePreview(
-  //   enabled: true,
-  //   builder: (BuildContext context) => const MyApp(),
-  // ));
-  const MyApp();
+  runApp(DevicePreview(
+    enabled: true,
+    builder: (BuildContext context) => const MyApp(),
+  ));
 }
 
 
