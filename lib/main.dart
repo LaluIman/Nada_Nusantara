@@ -7,6 +7,8 @@ import 'package:nada_nusantara/pages/home_screen.dart';
 void main() {
   runApp(DevicePreview(
     enabled: true,
+    defaultDevice: Devices.ios.iPhone13ProMax,
+    devices: [Devices.ios.iPhone13ProMax],
     builder: (BuildContext context) => const MyApp(),
   ));
 }
